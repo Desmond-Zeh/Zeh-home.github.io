@@ -5,7 +5,7 @@ window.onload = () =>{
  CommenceEvent();
 };
 /* Declare the main variables to be used in this program */
-let myImagesArray = ["TC.png","TT.png","SL7000.jpg","RS232.jpg","CB.png","surge.png"];
+let myImagesArray = ["TC.png","TT.png","SL7000.jpg","RS232.jpg","CB.png","surge.png","withTT.png","withoutTT.png"];
 let myImageIndex = 0;
 let timeInterval = 2000;
 /* CommenceEvent main function*/
