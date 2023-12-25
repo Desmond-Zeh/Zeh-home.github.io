@@ -26,7 +26,7 @@ function ResetImages(){
 myImageIndex = 0;
   }
 
-/* Open a new window to display the following document links when clicked on the DOCUMENT tab in the Navigation bar*/
+/* Open a new window to display the following document links when clicked on the on the respective tab in the Navigation bar*/
 
 let mydoc = document.getElementById("myDoc");
 mydoc.onclick = () =>{
