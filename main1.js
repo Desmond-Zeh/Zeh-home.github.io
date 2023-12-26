@@ -21,7 +21,7 @@ VerifyPromptContent();   ///// Check if the myName variable is not empty and the
 function VerifyPromptContent(){
 let myNumber=Number(myName);     //// Declare a new variable called myNumber to content the output conversion of the myNumber
 if(!Number.isNaN(myNumber)){
-   prompt("Wrong username format. Please verify your username and make sure it follows the recommended format.");
+   alert("Wrong username format. Please verify your username and make sure it follows the recommended format.");
 setUserName();                    ///// Check if the myNumber value is not a number and then return to the setUserName function if it's false
 }
 else{
@@ -47,7 +47,7 @@ password();               //// Proceed to the password function
 function password(){
 const mypassword=["desmond"];
 if(myPassword !=mypassword){
-    prompt("Wrong password. Please verify your password and make sure it the recommended one.");
+    alert("Wrong password. Please verify your password and make sure it the recommended one.");
 setUserPassword(); //// Check if the password enter doesn't correspond with the defaut password and return to the setUserPassword function if it's true
 }
 
